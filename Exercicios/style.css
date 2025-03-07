@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    font-family:times, "Times New Roman",sans-serif;
+}
+
+p{
+    text-align:justify;
+    font-size: 14pt
+}
+
+h1#titulo{
+    background-color:rgb(41, 115, 115);
+    color:white;
+    text-align:center;
+    height: 50px;
+}
+
+.icone{
+    text-align: center;
+}
+body{
+    background-color: rgb(235, 179, 10);
+    /* background-image:radial-gradient(circle, white, rgba(235, 171, 10, 0.893)); */
+}
+
+main{
+    background-color:rgb(123, 8, 40)
+}
+

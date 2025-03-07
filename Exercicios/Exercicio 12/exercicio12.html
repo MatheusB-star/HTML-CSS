@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elementos</title>
+    <link rel="shortcut icon" href="Exercicio 11/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        a {
+            color:rgb(255, 255, 255);
+            text-decoration:none;
+            font-weight:bold;
+        }
+        /* a:visited{
+            color:rgba(205, 91, 250, 0.742);
+            text-decoration:underline;
+        } */
+         a:hover{
+            text-decoration:underline;
+            color:rgb(94, 94, 202)
+         }
+         a:active{
+            color:greenyellow
+         }
+         .especial::before{
+            content:"⇒"
+         }
+         .especial::after{
+            content: "⇐"
+         }
+        
+    </style>
+</head>
+<body>
+    
+    <h1 class="icone">
+       <abbr title="Jóias de primeira classe">
+            <picture>
+                <source media="(max-width:750px)" srcset="PScloudNotebook.png" type="image/png">
+                <source media="(max-width:1050px)" srcset="PScloudNotebook.png" type="image/png">
+                <img class="circle-background icone"  src="joias.png" alt="Imagem flexivel">
+            </picture>
+       </abbr> 
+    </h1>
+    <h1 id="titulo">
+        <ins>
+            Produtos Luxuosos
+        </ins>
+    </h1>
+    <main>
+        <h2>
+            <ol style="color:white;">
+                <li>
+                    Cores
+                </li>
+                <p>Podem ser usadas para representar qualidade.</p>
+                <li>
+                    Autoridade
+                </li>
+                <p> A escolha certa pode gerar uma boa primeira impressão de autoridade de respeito para o usuário, gerando confiança no produto fornecido</p>
+            </oL>
+            <abbr>
+                <a class="especial" style="text-align:center;" href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22" target="_blank">Visite nosso site</a>
+            </abbr>
+           
+        </h2>
+    </main>
+</body>
+</html>

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+*{
+    font-family:times, "Times New Roman",sans-serif;
+    font-weight: normal;
+}
+
+p{
+    text-align:justify;
+    font-size: 16pt;
+    text-indent:25px;
+}
+
+
+body{
+    background-color: rgb(242, 196, 13)
+    /* background-color: rgb(252, 206, 68); */
+    /* background-image:radial-gradient(circle, white, rgba(235, 171, 10, 0.893)); */
+}
+
+
+h1#titulo{
+    background-color:black;
+    color:white;
+    text-align:center;
+    height: 50px;
+    border-radius:15px;
+    box-shadow: 5px 5px 15px black;
+    font-weight:bold;
+    border-top: 20px;
+
+}
+
+
+ol{
+    list-style-position: inside;
+    text-align:left;
+    
+}
+
+ol li {
+    text-align: left; /* Garante que o texto dos itens fique alinhado à esquerda */
+}
+
+.icone{
+    text-align: center;
+}
+
+
+
+
+
+main{
+    background-color:rgb(123, 3, 3);
+    text-align:center;
+    width: 700px;
+    margin:auto;
+    border-radius: 20px;
+    padding:1px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 15px rgb(46, 41, 78);
+    border-style: solid;
+    
+    
+    
+    
+}
+
+.circle-background {
+    width: 150px;           /* Define o tamanho do círculo */
+    height: 150px;          /* Define o tamanho do círculo */
+    background-color: rgba(255, 245, 195, 0.848); /* Cor de fundo do círculo */
+    border-radius: 50%; 
+    border-style:solid;    /* Torna o contêiner circular */
+    height:140px;
+    display: flex;          /* Centraliza a imagem dentro do círculo */
+    align-items: center;    /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    overflow: hidden;       /* Garante que a imagem não ultrapasse os limites */
+    margin:auto
+    
+}
+
+.circle-background img {
+    width: 80%;             /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    border-radius: 50%;     /* Torna a imagem circular se for quadrada */
+   
+}
+
